@@ -1,0 +1,29 @@
+{
+    "name": "opensynergic/laravel-position",
+    "description": "Simplify managing entity positions in Laravel applications with ease and flexibility.",
+    "type": "laravel",
+    "require": {
+        "spatie/laravel-package-tools": "^1.15",
+        "spatie/laravel-permission": "^5.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OpenSynergic\\Position\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahman Ramsi",
+            "email": "rahmanramsi19@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OpenSynergic\\Position\\PositionServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
